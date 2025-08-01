@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simulating Asynchrinous Data Fetching With Error Handling Using Asynchrinous/Await</h1>
+</body>
+</html>
+<script>
+let Delivary = new Promise((resolve, reject) => {
+    let apicall = true
+    setTimeout() =>{
+        if(apicall){
+            res("delivary is on the way")
+        }
+    }
+})
+else {
+    rej("order not placed")
+
+},5000)
+})
+console.log(Delivary)
+Delivary.then((param)=>{
+    console.log("runs for resolve", param)
+
+})
+.catch((param)=>
+console.log("runs for reject", param)
+
+.finally()=>{
+    console.log("Please be aware")
+})
+
+
+</script>
